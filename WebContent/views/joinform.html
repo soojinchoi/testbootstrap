@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>은하철도999</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="stylesheet"
+	href="/test_web_project/assets/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/test_web_project/assets/css/bootstrap.css"
+	media="screen">
+<link rel="stylesheet"
+	href="/test_web_project/assets/css/custom.min.css">
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+	integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+	crossorigin="anonymous"></script>
+<script>
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-23019901-1' ]);
+	_gaq.push([ '_setDomainName', "bootswatch.com" ]);
+	_gaq.push([ '_setAllowLinker', true ]);
+	_gaq.push([ '_trackPageview' ]);
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<!-- 상단 네비게이션 ================================================== -->
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="/test_web_project/views/index.html" class="navbar-brand">은하철도999</a>
+				<button class="navbar-toggle" type="button" data-toggle="collapse"
+					data-target="#navbar-main">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar-main">
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#" id="themes">은하철도999<span
+							class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="themes">
+							<li><a href="../default/">999 소개</a></li>
+							<li class="divider"></li>
+							<li><a href="../cerulean/">999 사용법</a></li>
+							<li class="divider"></li>
+							<li><a href="../cosmo/">999 Contact</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">검색 및 추가<span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="time-search">
+							<li><a href="../default/">기차시간표</a></li>
+							<li class="divider"></li>
+							<li><a href="../cerulean/">관광지</a></li>
+							<li class="divider"></li>
+							<li><a href="../cosmo/">숙박</a></li>
+							<li class="divider"></li>
+							<li><a href="../cosmo/">맛집</a></li>
+						</ul></li>
+					<li><a href="http://news.bootswatch.com">나의 여행스케줄</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#" id="download">게시판 <span
+							class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="time-search">
+							<li><a href="../default/">Q & A</a></li>
+							<li class="divider"></li>
+							<li><a href="../cerulean/">스케줄 뽐내기</a></li>
+							<li class="divider"></li>
+							<li><a href="../cosmo/">자유게시판</a></li>
+						</ul></li>
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://builtwithbootstrap.com/" target="_blank">로그인</a></li>
+					<li><a href="https://wrapbootstrap.com/?ref=bsw"
+						target="_blank">회원가입</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- FORM -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="page-header">
+					<h2 id="forms">회원가입</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="well bs-component">
+					<form class="form-horizontal">
+						<fieldset>
+							<div class="form-group">
+								<label for="inputEmail" class="col-lg-2 control-label">Email</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="inputEmail"
+										placeholder="Email">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputPassword" class="col-lg-2 control-label">Password</label>
+								<div class="col-lg-10">
+									<input type="password" class="form-control" id="inputPassword"
+										placeholder="Password">
+									<div class="checkbox">
+										<label> <input type="checkbox"> Checkbox
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="textArea" class="col-lg-2 control-label">Textarea</label>
+								<div class="col-lg-10">
+									<textarea class="form-control" rows="3" id="textArea"></textarea>
+									<span class="help-block">A longer block of help text
+										that breaks onto a new line and may extend beyond one line.</span>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-2 control-label">Radios</label>
+								<div class="col-lg-10">
+									<div class="radio">
+										<label> <input type="radio" name="optionsRadios"
+											id="optionsRadios1" value="option1" checked="">
+											Option one is this
+										</label>
+									</div>
+									<div class="radio">
+										<label> <input type="radio" name="optionsRadios"
+											id="optionsRadios2" value="option2"> Option two can
+											be something else
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="select" class="col-lg-2 control-label">Selects</label>
+								<div class="col-lg-10">
+									<select class="form-control" id="select">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+									</select>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-10 col-lg-offset-2">
+									<button type="reset" class="btn btn-default">취소</button>
+									<button type="submit" class="btn btn-primary">가입</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+</body>
+</html>
